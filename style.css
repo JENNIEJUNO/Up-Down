@@ -31,3 +31,8 @@ input::-webkit-inner-spin-button{appearance: none; /*화살표 버튼 없애기*
 /** hover **/
 #go_button:hover{cursor:pointer; background-color:rgb(16, 218, 16);}
 #reset_button:hover{cursor:pointer; background-color:rgb(182, 182, 26)}
+
+@media screen and (max-width:600px){
+    #number_go_button{flex-direction:column;}
+    #user_input{margin-bottom:1vh;}
+}
