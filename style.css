@@ -32,7 +32,7 @@ input::-webkit-inner-spin-button{appearance: none; /*화살표 버튼 없애기*
 #go_button:hover{cursor:pointer; background-color:rgb(16, 218, 16);}
 #reset_button:hover{cursor:pointer; background-color:rgb(182, 182, 26)}
 
-@media screen and (max-width:700px){
+@media screen and (max-width:1000px){
     #box{width:80vw;}
     #number_go_button{flex-direction:column;}
     #user_input{margin-bottom:1vh;}
